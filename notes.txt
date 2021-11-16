@@ -1,0 +1,13 @@
+
+cprofile to create profiler objects
+gprof2dot to create dot graph
+
+
+%%prun -D out.profile
+SOME_CODE
+
+! gprof2dot -f pstats out.profile  > temp.dot
+
+! dot -Tjpg temp.dot -o outfile.jpg
+
+
