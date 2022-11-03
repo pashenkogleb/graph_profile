@@ -9,6 +9,8 @@ to install:
 
 ```
 pip install git+https://github.com/pashenkogleb/graph_profile
+sudo apt install graphviz
+pip install gprof2dot
 ```
 
 to use:
